@@ -9,3 +9,7 @@ root2=(-b - discRoot) / (2 * a)
 print()
 print("The solutions are:", root1, root2)
 main()
+
+# Problem 2
+for i in [1/2,1/3, 1/4, 1/5, 1/6, 1/7, 1/8, 1/9, 1/10]:
+    print(i)
