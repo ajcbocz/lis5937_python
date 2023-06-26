@@ -40,3 +40,6 @@ main()
 from datetime import datetime, date, time, timezone
 
 datetime.now()
+
+d = timedelta(microseconds=-1)
+(d.days, d.seconds, d.microseconds)
