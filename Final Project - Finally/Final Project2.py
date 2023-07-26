@@ -56,7 +56,7 @@ for images in os.listdir(folder_dir):
         text = pytesseract.image_to_string(image)
         print(text)
 
-#COMBINE
+#COMBINE JPG TO PDF
 import os
 import img2pdf
 
@@ -99,6 +99,7 @@ else:
 # pdf.close()
 # print("Merge complete!")
 
+#REMOVING UNUSED FILES AND ENDING TIMER
 import glob
 
 files = glob.glob('/Users/ab_home/Desktop/Sample_Combined_Files/*.jpg', recursive=True)
