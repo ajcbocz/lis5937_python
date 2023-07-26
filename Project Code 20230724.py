@@ -38,16 +38,7 @@ print("The end time is", end_time_Guru99)
 print("Time elapsed in this example code: ", end_time_Guru99 - start_time_Guru99)
 
 import os
-from os import listdir
-from PIL import Image
-
-i = 1
 
 folder_dir = "/Users/ab_home/Desktop/Sample_Combined_Files"
-for images in os.listdir(folder_dir):
+for document in os.listdir(folder_dir):
 
-    if(images.endswith(".tif")):
-        img_tif = Image.open(images)
-        rgb = img_tif.convert("RGB")
-        rgb.save("/Users/ab_home/Desktop/Sample_Combined_Files/" + str(i) + '.jpg')
-        i = i + 1
